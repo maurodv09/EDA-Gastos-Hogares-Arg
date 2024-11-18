@@ -1,5 +1,5 @@
 ### Selección de características
-Se selecciónan las columnas que se usaran para este projecto:
+Se seleccionaron las variables que se usaran para este projecto:
 -  Identificación: `id` `provincia`
 -  Composición de los hogares: `cantmiem` `cantping` `reldep`
 -  Ingresos y Gastos totales y per capita: `ingtoth` `ingpch` `gastot` `gastotpc`
@@ -19,14 +19,14 @@ Se selecciónan las columnas que se usaran para este projecto:
 - No hubo registros cuya cantidad de miembros (`cantmiem`) sea menor que la cantidad de personas que perciben ingresos (`cantping`).
 - No hubo errores en el cálculo de la relación de dependencia (`reldel`) = `cantmiem` / `cantping`.
 
-### Ingresos
+**Ingresos**
 - No hubo registros con ingresos igual a 0.
 - No hubo errores en el calculo de ingreso per cápita (`ingpc`) = (`ingtoth`) / (`cantmiem`).
 
-### Gastos
+**Gastos**
 - unicamente la categoria `g7` contenía valores negativos (208 - menor al 1%). Estos registros fueron eliminados
 - No hubo errores en la sumatoria de tipos de gastos.
 - No hubo errores en el calculo de gasto per cápita (`gastopc`) = (`gastot`) / (`cantmiem`).
 
-### Formas de pago
-- Se detectó un alto número de errores e inconsistencias en el cálculo de las formas de pago, por lo que se se dicidió prescindir de estas columnas para este análisis
+**Formas de pago**
+- Se detectó un alto número de errores e inconsistencias en el cálculo de las formas de pago, por lo que se se dicidió finalmente prescindir de estas columnas para este análisis
