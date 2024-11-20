@@ -27,11 +27,10 @@ This exploratory data analysis project aims to thoroughly examine the income and
 The main objective of this study is to provide detailed information on how these variables are related, identifying patterns and trends that may influence the formulation of public policies and economic strategies.
 
 The project is divided into two phases, each with its own Notebook:
-- [Data Cleaning](https://github.com/maurodv09/Finanzas-Hogares-Argentina-EDA/blob/main/data_cleaning.ipynb)
-- [Exploratory Data Analysis](https://github.com/maurodv09/Finanzas-Hogares-Argentina-EDA/blob/main/EDA.ipynb)
+- [Data Cleaning](https://github.com/maurodv09/Finanzas-Hogares-Argentina-EDA/blob/main/English%20Notebooks/data_cleaning.ipynb)
+- [Exploratory Data Analysis](https://github.com/maurodv09/Finanzas-Hogares-Argentina-EDA/blob/main/English%20Notebooks/EDA.ipynb)
 
 *Detailed documentation for the data cleaning process can be found in [data_cleaning_doc.md](https://github.com/maurodv09/Finanzas-Hogares-Argentina-EDA/blob/main/documentation/data_cleaning_doc.md).  
-*Notebook translation is currently under progress.
 
 ## Dataset
 The dataset was downloaded from the [INDEC](https://www.indec.gob.ar/indec/web/Institucional-Indec-BasesDeDatos-4) webpage.  
